@@ -14,8 +14,7 @@ body {
     clear: both;
 }
 
-.container-fullwidth {
-    width: 100vw;
+.whitebg {
     background-color: white;
     position: fixed;
     z-index: 5;
@@ -64,6 +63,7 @@ ul {
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .jumbotron {
@@ -71,7 +71,7 @@ ul {
     color: white;
     margin: 0 auto;
     position: relative;
-    height: 500px;
+    height: 600px;
 }
 
 .opacity {
@@ -91,35 +91,47 @@ ul {
     text-align: center;
 }
 
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
+.col-xs-12, .col-md-6, .col-lg-5 img {
+    width: 150px;
+    margin: 30px 0;
 }
 
-.card {
-    float: left;
-    width: 50%;
-    padding: 30px 30px;
-}
-
-.card img {
-    width: 200px;
-    margin: 20px 0;
-}
-
-.card content {
+.col-xs-12, .col-md-6, .col-lg-5  {
     background-color: #fafafa;
+    margin-top: 50px;
 }
 
-.card a {
+
+/* .col-md-6, .col-lg-6:first-child  {
+    margin-right: 10px;
+} */
+
+.col-xs-12, .col-md-6, .col-lg-5 a {
     display: block;
+    text-decoration: none;
+    color: #358dd2;
+
 }
+
+
+
+.col-xs-12, .col-md-6, .col-lg-5 p {
+    display: block;
+    text-decoration: none;
+    color: #212529;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 
 .bg-vecchio {
     background-image: url('https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg');
     height: 500px;
     background-size: cover;
+}
+
+.col-xs-12 .bg-vecchio {
+    height: 400
 }
 
 .blocco {
